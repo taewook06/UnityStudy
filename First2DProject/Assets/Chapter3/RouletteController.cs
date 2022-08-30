@@ -16,8 +16,13 @@ public class RouletteController : MonoBehaviour
     void Update()
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         //클릭하면 회전한다.
         if (Input.GetMouseButton(0))
+=======
+        //클릭하는 동안 회전하고, end를 true로 초기화
+        if (Input.GetMouseButton(0)) 
+>>>>>>> Stashed changes
         {
             rotSpeed = 5;
 =======
@@ -26,6 +31,9 @@ public class RouletteController : MonoBehaviour
         {
             rotSpeed = 10;
             end = true; 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
         //속도를 줄인다.

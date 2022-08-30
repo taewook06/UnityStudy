@@ -20,10 +20,13 @@ MonoBehaviour:
     height: 997
   m_ShowMode: 4
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Title: Game
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 542}
 =======
+=======
+>>>>>>> Stashed changes
   m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
@@ -81,9 +84,12 @@ MonoBehaviour:
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 128
 --- !u!114 &4
 =======
+=======
+>>>>>>> Stashed changes
   controlID: 100
 --- !u!114 &3
 >>>>>>> Stashed changes
@@ -264,9 +270,12 @@ MonoBehaviour:
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 129
 --- !u!114 &11
 =======
+=======
+>>>>>>> Stashed changes
   controlID: 37
 --- !u!114 &10
 >>>>>>> Stashed changes
@@ -295,9 +304,12 @@ MonoBehaviour:
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 130
 --- !u!114 &12
 =======
+=======
+>>>>>>> Stashed changes
   controlID: 38
 --- !u!114 &11
 >>>>>>> Stashed changes
@@ -378,9 +390,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: 04ca9a3b
     m_LastClickedID: 1000000004
     m_ExpandedIDs: 000000006a43000000ca9a3b
+=======
+    m_SelectedIDs: 64430000
+    m_LastClickedID: 17252
+    m_ExpandedIDs: 000000005e43000000ca9a3b
+>>>>>>> Stashed changes
 =======
     m_SelectedIDs: 64430000
     m_LastClickedID: 17252
@@ -414,7 +432,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 000000006a430000
+=======
+    m_ExpandedIDs: 000000005e430000
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: 000000005e430000
 >>>>>>> Stashed changes
@@ -539,7 +561,11 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_SelectedIDs: 3e430000
+=======
+      m_SelectedIDs: f4100000
+>>>>>>> Stashed changes
 =======
       m_SelectedIDs: f4100000
 >>>>>>> Stashed changes
