@@ -8,6 +8,7 @@ public class RouletteController : MonoBehaviour
     GameObject Chance;
     float rotSpeed = 0; // 회전 속도
     bool end = false;
+    int carMoveChance;
 
     // Start is called before the first frame update
     void Start()
@@ -39,32 +40,38 @@ public class RouletteController : MonoBehaviour
                 if (gameObject.transform.eulerAngles.z > 330 || gameObject.transform.eulerAngles.z <= 30)
                 {
                     Debug.Log("운수 나쁨");
-                    Chance.GetComponent<Text>().text = "뽑은 기회: 1";
+                    carMoveChance = 1;
+                    Chance.GetComponent<Text>().text = $"뽑은 기회: {carMoveChance}";
                 }
                 else if (gameObject.transform.eulerAngles.z > 30 && gameObject.transform.eulerAngles.z <= 90)
                 {
                     Debug.Log("운수 대통");
-                    Chance.GetComponent<Text>().text = "뽑은 기회: 2";
+                    carMoveChance = 2;
+                    Chance.GetComponent<Text>().text = $"뽑은 기회: {carMoveChance}";
                 }
                 else if (gameObject.transform.eulerAngles.z > 90 && gameObject.transform.eulerAngles.z <= 150)
                 {
                     Debug.Log("운수 매우 나쁨");
-                    Chance.GetComponent<Text>().text = "뽑은 기회: 1";
+                    carMoveChance = 1;
+                    Chance.GetComponent<Text>().text = $"뽑은 기회: {carMoveChance}";
                 }
                 else if (gameObject.transform.eulerAngles.z > 150 && gameObject.transform.eulerAngles.z <= 210)
                 {
                     Debug.Log("운수 보통");
-                    Chance.GetComponent<Text>().text = "뽑은 기회: 3";
+                    carMoveChance = 3;
+                    Chance.GetComponent<Text>().text = $"뽑은 기회: {carMoveChance}";
                 }
                 else if (gameObject.transform.eulerAngles.z > 210 && gameObject.transform.eulerAngles.z <= 270)
                 {
                     Debug.Log("운수 조심");
-                    Chance.GetComponent<Text>().text = "뽑은 기회: 2";
+                    carMoveChance = 2;
+                    Chance.GetComponent<Text>().text = $"뽑은 기회: {carMoveChance}";
                 }
                 else
                 {
                     Debug.Log("운수 좋음");
-                    Chance.GetComponent<Text>().text = "뽑은 기회: 4";
+                    carMoveChance = 4;
+                    Chance.GetComponent<Text>().text = $"뽑은 기회: {carMoveChance}";
                 }
                 end = false;
             }
