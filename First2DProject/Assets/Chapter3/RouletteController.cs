@@ -21,7 +21,7 @@ public class RouletteController : MonoBehaviour
     void Update()
     {
 
-        gameObject.GetComponent<RouletteController>().enabled = true;
+        gameObject.GetComponent<RouletteController>().enabled = true;  //스크립트 켜기
         {
             //클릭하는 동안 회전한다.
             if (Input.GetMouseButton(0))
@@ -79,7 +79,7 @@ public class RouletteController : MonoBehaviour
                     }
                     end = false;
 
-                    gameObject.GetComponent<RouletteController>().enabled = false;
+                    gameObject.GetComponent<RouletteController>().enabled = false;  //룰렛을 한 번 돌리면 스크립트 끄기
                 }
             }
         }

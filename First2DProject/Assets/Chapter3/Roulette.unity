@@ -609,6 +609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99694cf0fb21d294a9ee7354c6c67fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Chance: {fileID: 0}
+  carMoveChance: 0
 --- !u!212 &1050395167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -791,7 +793,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000019073486, y: 0}
+  m_AnchoredPosition: {x: 26, y: 0}
   m_SizeDelta: {x: 153.3604, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1769434121
@@ -816,7 +818,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
