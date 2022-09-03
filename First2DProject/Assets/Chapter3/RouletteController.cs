@@ -8,7 +8,7 @@ public class RouletteController : MonoBehaviour
     public GameObject Chance;
     float rotSpeed = 0; // 회전 속도
     bool end = false;
-    public int carMoveChance;
+    public int carMoveChance = -1;
     
 
     // Start is called before the first frame update

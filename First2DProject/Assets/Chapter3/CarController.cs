@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class CarController : MonoBehaviour
 {
-    float speed = 0;
+    public float speed = 0;
     Vector2 startPos;
-    int RemainChance;
+    public int RemainChance;
 
 
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class CarController : MonoBehaviour
     void Update()
     {
 
-        if (GameObject.Find("roulette").GetComponent<RouletteController>().carMoveChance > 0 ) // ·ê·¿ÀÇ carMoveChance°¡ 0º¸´Ù Å¬ ¶§
+        if (GameObject.Find("roulette").GetComponent<RouletteController>().carMoveChance > 0 || speed>=0.001 ) // ·ê·¿ÀÇ carMoveChance°¡ 0º¸´Ù Å¬ ¶§
         {
             
             
