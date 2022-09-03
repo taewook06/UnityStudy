@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Chance: {fileID: 0}
-  carMoveChance: 0
+  carMoveChance: -1
 --- !u!212 &1050395167
 SpriteRenderer:
   m_ObjectHideFlags: 0
