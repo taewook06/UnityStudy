@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Chapter3/Roulette.unity
-    guid: 04b5099fc03c95e4e896fdb5d0473fce
-  - enabled: 0
-    path: Assets/Chapter4/Car.unity
-    guid: 0caa8f7e8f641c7488c8df45617c0f81
+    path: Assets/Chapter6/scene/ClearScene.unity
+    guid: 9fe20c28763802a479081ee975146a2e
+  - enabled: 1
+    path: Assets/Chapter6/scene/Jumping.unity
+    guid: 36e15a17b3017004dbfc3fe7d78ce107
   m_configObjects: {}
