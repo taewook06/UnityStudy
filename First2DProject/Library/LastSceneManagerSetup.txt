@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Chapter6/scene/Jumping.unity
+- path: Assets/RhythmGame/scene/RhythmGame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
