@@ -42,7 +42,7 @@ public class CarController : MonoBehaviour
                     float swipeLiength = endPos.x - startPos.x;
 
 
-                    speed = swipeLiength / 500.0f;
+                    speed = swipeLiength / 500;
 
                     GetComponent<AudioSource>().Play();
 
@@ -57,7 +57,7 @@ public class CarController : MonoBehaviour
  
                 transform.Translate(speed, 0, 0);
 
-                speed *= 0.98f;
+                speed *= 0.96f;
             
 
 
