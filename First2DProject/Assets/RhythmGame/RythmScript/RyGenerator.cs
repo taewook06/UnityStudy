@@ -28,23 +28,26 @@ public class RyGenerator : MonoBehaviour
             delta += Time.deltaTime;
             if (delta > span) //delta가 1초보다 큰 경우
             {
-               GameObject genObj;
+                GameObject UpObj;
+                GameObject DownObj;
+                GameObject LeftObj;
+                GameObject RightObj;
 
                 int ArrowNumber = Random.Range(0, 4);
 
                 switch (ArrowNumber)
                 {
                     case 0:
-                        genObj = Instantiate(up);
+                        UpObj = Instantiate(up);
                         break;
                     case 1:
-                        genObj = Instantiate(down);
+                        DownObj = Instantiate(down);
                         break;
                     case 2:
-                        genObj = Instantiate(left);
+                        LeftObj = Instantiate(left);
                         break;
                     case 3:
-                        genObj = Instantiate(right);
+                        RightObj = Instantiate(right);
                         break;
                 }
                 delta = 0;

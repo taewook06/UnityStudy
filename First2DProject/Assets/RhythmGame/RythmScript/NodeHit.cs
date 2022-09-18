@@ -16,12 +16,17 @@ public class NodeHit : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        UpArrow = GameObject.Find("RythmGenerator").GetComponent<RyGenerator>().genObj;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        UpArrow = GameObject.Find("UpObj");
+        DownArrow = GameObject.Find("DownObj");
+        LeftArrow = GameObject.Find("LeftObj");
+        RightArrow = GameObject.Find("RightObj");
+
         if (GameObject.Find("ButtonClick").GetComponent<Button>().IsStart == true)
         {
             if (IsUpArrow == true)
