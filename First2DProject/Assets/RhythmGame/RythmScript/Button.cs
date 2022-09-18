@@ -6,6 +6,7 @@ public class Button : MonoBehaviour
 {
     GameObject button;
     public bool MusicPlay;
+    public bool IsStart;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class Button : MonoBehaviour
     public void BtnClick()
     {
         MusicPlay = true;
+        IsStart = true;
         Destroy(button);
        
     }
