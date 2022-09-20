@@ -8,65 +8,16 @@ public class NodeHit : MonoBehaviour
     public bool IsDownArrow;
     public bool IsLeftArrow;
     public bool IsRightArrow;
-
-    GameObject UpArrow;
-    GameObject DownArrow;
-    GameObject LeftArrow;
-    GameObject RightArrow;
+    
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        UpArrow = GameObject.Find("UpObj");
-        DownArrow = GameObject.Find("DownObj");
-        LeftArrow = GameObject.Find("LeftObj");
-        RightArrow = GameObject.Find("RightObj");
-
-        if (GameObject.Find("ButtonClick").GetComponent<Button>().IsStart == true)
-        {
-            if (IsUpArrow == true)
-            {
-                if (Input.GetKeyDown(KeyCode.DownArrow))
-                {
-                    Destroy(UpArrow);
-                    IsUpArrow = false;
-                }
-            }
-            if (IsDownArrow == true)
-            {
-                if (Input.GetKeyDown(KeyCode.UpArrow))
-                {
-                    Destroy(DownArrow);
-                    IsDownArrow = false;
-                }
-            }
-            if (IsLeftArrow == true)
-            {
-                if (Input.GetKeyDown(KeyCode.RightArrow))
-                {
-                    Destroy(LeftArrow);
-                    IsLeftArrow = false;
-                }
-            }
-            if (IsRightArrow == true)
-            {
-                if (Input.GetKeyDown(KeyCode.LeftArrow))
-                {
-                    Destroy(RightArrow);
-                    IsRightArrow = false;
-                }
-            }
-        }
-       
-    }
+      
     private void OnTriggerEnter2D(Collider2D collision)
     {       
-        if (collision.transform.tag == "UpArrow")
+        if (collision.transform.tag == "UpArrow") //닿으면 IsUpArrow를 true -> RyGenerator스크립트에 신호주기
         {
             IsUpArrow = true;     
         }
@@ -82,8 +33,8 @@ public class NodeHit : MonoBehaviour
         {
             IsRightArrow = true;
         }
-        //닿지 않았을 때 아무거라도 키를 눌렀을시, Hp차감 
-       
+
+        //닿지 않았을 때 아무거라도 키를 눌렀을시, Hp차감       
 
     }
     

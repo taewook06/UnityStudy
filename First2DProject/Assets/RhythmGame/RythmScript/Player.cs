@@ -9,8 +9,7 @@ public class Player : MonoBehaviour
     GameObject up;
     GameObject down;
     GameObject left;
-    GameObject right;
-    public bool OutNode;
+    GameObject right;   
 
     // Start is called before the first frame update
     void Start()
@@ -32,14 +31,7 @@ public class Player : MonoBehaviour
                 GetComponent<AudioSource>().Play();
                 GameObject.Find("ButtonClick").GetComponent<Button>().MusicPlay = false;
             }
-            /* if(OutNode == true)
-             {
-                 if(Input.anyKey)
-                 {
-                     GameObject.Find("Hp").GetComponent<HpControll>().DecreaseHp();
-                 }
-                 OutNode = false;
-             } */
+         
         }
 
 
@@ -70,11 +62,7 @@ public class Player : MonoBehaviour
             GameObject.Find("Hp").GetComponent<HpControll>().DecreaseHp();
             GameObject.Find("NodeBox").GetComponent<NodeHit>().IsRightArrow = false;
             Destroy(collision.gameObject);
-        }
-        if(collision.transform.tag != "UpArrow" && collision.transform.tag != "DownArrow" && collision.transform.tag != "LeftArrow" && collision.transform.tag != "RightArrow")
-        {
-            OutNode = true;
-        }
+        }      
 
     }
 }
