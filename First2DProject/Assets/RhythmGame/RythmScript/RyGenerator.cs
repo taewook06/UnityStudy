@@ -92,7 +92,7 @@ public class RyGenerator : MonoBehaviour
                     Destroy(GameObject.Find("left(Clone)"));
                     GameObject.Find("NodeBox").GetComponent<NodeHit>().IsLeftArrow = false;
                 }
-            }¤¤
+            }
             if (GameObject.Find("NodeBox").GetComponent<NodeHit>().IsRightArrow == true)
             {
                 if (Input.GetKeyDown(KeyCode.LeftArrow))
