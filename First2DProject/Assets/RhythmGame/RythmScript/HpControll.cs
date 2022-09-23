@@ -15,11 +15,13 @@ public class HpControll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (hpGauge.GetComponent<Image>().fillAmount == 0)
+        if (hpGauge.GetComponent<Image>().fillAmount <= 0)
         {
-
+            GameObject.Find("ButtonClick").GetComponent<Button>().IsStart = false;
+            GameObject.Find("player").GetComponent<AudioSource>().Stop();
+            GameObject.Find("GameOver").GetComponent<Text>().text = "Game Over";            
         }
-    }
+    }   
     public void DecreaseHp()
     {
         hpGauge.GetComponent<Image>().fillAmount -= 0.1f;
