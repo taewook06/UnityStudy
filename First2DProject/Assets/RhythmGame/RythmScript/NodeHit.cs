@@ -20,13 +20,13 @@ public class NodeHit : MonoBehaviour
 
     void Update()
     {
-        if(Foul == true) //닿지 않았을 때 아무거라도 키를 눌렀을시, Hp차감      
+        if (GameObject.Find("ButtonClick").GetComponent<Button>().IsStart == true)
         {
-            if(Input.anyKey) 
+
+            if (((IsUpArrow == false) && (IsDownArrow == false) && (IsLeftArrow == false) && (IsRightArrow == false)) && Input.anyKeyDown) //아무것도 닿지 않았을 때      
             {
                 GameObject.Find("Hp").GetComponent<HpControll>().DecreaseHp(); //DecreaseHp = Hp깎임
             }
-            Foul = false;
         }
     }
 
@@ -49,11 +49,6 @@ public class NodeHit : MonoBehaviour
             IsRightArrow = true;
         }
 
-         // 아무것도 닿지 않았을 때 파울 온
-        if((collision.transform.tag != "UpArrow") && (collision.transform.tag != "DownArrow") && (collision.transform.tag != "LeftArrow") && (collision.transform.tag != "RightArrow"))
-        {
-            Foul = true;
-        }
     }
     
 }
