@@ -12,6 +12,14 @@ public class GameManager : MonoBehaviour
     {
         hpGauge = GameObject.Find("Hp");
     }
+    void Update()
+    {
+        if( hpGauge.GetComponent<Image>().fillAmount <= 0)
+        {
+            GameObject.Find("BtnOnOff").GetComponent<StartBtn>().IsStart = false;
+            GameObject.Find("GameOver").GetComponent<Text>().text = "Game Over";
+        }
+    }
 
     public void DecreaseHp()
     {

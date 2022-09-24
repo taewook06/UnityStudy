@@ -23,10 +23,14 @@ public class NodeHit : MonoBehaviour
         if (GameObject.Find("ButtonClick").GetComponent<Button>().IsStart == true)
         {
 
-            if (((IsUpArrow == false) && (IsDownArrow == false) && (IsLeftArrow == false) && (IsRightArrow == false)) && Input.anyKeyDown) //아무것도 닿지 않았을 때      
+           /* if ((IsUpArrow == false) && (IsDownArrow == false) && (IsLeftArrow == false) && (IsRightArrow == false)) //아무것도 닿지 않았을 때      
             {
-                GameObject.Find("Hp").GetComponent<HpControll>().DecreaseHp(); //DecreaseHp = Hp깎임
-            }
+                if(Input.anyKeyDown)
+                {
+                    GameObject.Find("Hp").GetComponent<HpControll>().DecreaseHp(); //DecreaseHp = Hp깎임
+                }
+               
+            } */
         }
     }
 

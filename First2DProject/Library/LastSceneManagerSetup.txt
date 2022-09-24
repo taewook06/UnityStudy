@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/RhythmGame/RythmScene/RhythmGame.unity
+- path: Assets/Chapter5/Scene/MovingGame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
