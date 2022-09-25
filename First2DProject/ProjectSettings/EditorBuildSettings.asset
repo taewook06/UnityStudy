@@ -5,16 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Chapter6/scene/ClearScene.unity
-    guid: 9fe20c28763802a479081ee975146a2e
-  - enabled: 0
-    path: Assets/Chapter6/scene/Jumping.unity
-    guid: 36e15a17b3017004dbfc3fe7d78ce107
-  - enabled: 0
-    path: Assets/RhythmGame/RythmScene/RhythmGame.unity
-    guid: ac60d8075b3e55545a4517e9219574ab
   - enabled: 1
-    path: Assets/Chapter5/Scene/MovingGame.unity
-    guid: 5c5907149e4771e47a2f0f909611ad20
+    path: Assets/chapter8/Scenes/Manu.unity
+    guid: 4577f53cbba058a4994eef8939b89e5b
+  - enabled: 1
+    path: Assets/chapter8/Scenes/Main1.unity
+    guid: fd7c802439e3c614a894969e9286ae84
   m_configObjects: {}

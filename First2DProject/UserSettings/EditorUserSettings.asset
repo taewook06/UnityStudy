@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
-      value: 2242470311464678050f1c3615310b5f35160a6439262f2434
-      flags: 0
-    RecentlyUsedScenePath-1:
-      value: 2242470311464678050f1c3615310c5f24180d26293c3235633c133af6f9
-      flags: 0
-    RecentlyUsedScenePath-2:
-      value: 22424703114646680e0b0227036c6d1f031b1d3e382d68252320092a
-      flags: 0
-    RecentlyUsedScenePath-3:
-      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
-      flags: 0
-    RecentlyUsedScenePath-4:
       value: 224247031146466f081d181113265103580216233831
       flags: 0
-    RecentlyUsedScenePath-5:
+    RecentlyUsedScenePath-1:
       value: 2242470311464669021b002704375a33170557192f2d2835621b1226eee5202ce7a923e7ee2e26
       flags: 0
-    RecentlyUsedScenePath-6:
+    RecentlyUsedScenePath-2:
       value: 2242470311464678050f1c361531095f05141d242967053c28280f00e1e53a3dacf238e0f323
       flags: 0
-    RecentlyUsedScenePath-7:
+    RecentlyUsedScenePath-3:
       value: 2242470311464678050f1c361531095f05141d2429670c252039143de5ae2136ebf32f
       flags: 0
-    RecentlyUsedScenePath-8:
+    RecentlyUsedScenePath-4:
       value: 22424703114646690517182a1d045e1d13582a3338202b032e2c1336add23c21f6ef3bcee6373a722c0ce6281d
       flags: 0
-    RecentlyUsedScenePath-9:
+    RecentlyUsedScenePath-5:
+      value: 2242470311464658050f1c361531075f25141d24293b691d2827087df7ee3d2cfb
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 2242470311464658050f1c361531075f25141d24293b691d2c20137df7ee3d2cfb
+      flags: 0
+    RecentlyUsedScenePath-7:
       value: 2242470311464678050f1c3615310a5f25141d2429670b3f3b201334c5e1393dacf238e0f323
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 2242470311464658050f1c361531075f25141d24293b691d2c27087df7ee3d2cfb
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 2242470311464658050f1c361531075f25141d24293b691d2c201362acf53a31f6fe
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
