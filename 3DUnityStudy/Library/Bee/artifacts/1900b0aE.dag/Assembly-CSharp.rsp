@@ -335,6 +335,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Chapter10/Scripts/Fireball.cs"
+"Assets/Chapter10/Scripts/FollowEnemy.cs"
+"Assets/Chapter10/Scripts/FpsInput.cs"
+"Assets/Chapter10/Scripts/MouseLook.cs"
+"Assets/Chapter10/Scripts/PlayerCharacter.cs"
+"Assets/Chapter10/Scripts/RayShooter.cs"
+"Assets/Chapter10/Scripts/ReactiveTarget.cs"
+"Assets/Chapter10/Scripts/SceneController.cs"
+"Assets/Chapter10/Scripts/WanderingAI.cs"
 "Assets/Chapter7/Script/BamSongController.cs"
 "Assets/Chapter7/Script/BamSongGenerator.cs"
 "Assets/Chapter7/Script/BoxController.cs"
@@ -345,6 +354,11 @@
 "Assets/Chapter8/Script/ItemController.cs"
 "Assets/Chapter8/Script/ItemGenerator.cs"
 "Assets/Chapter8/Script/stageHit.cs"
+"Assets/Chapter9/Scripts/Bullets.cs"
+"Assets/Chapter9/Scripts/BulletSponer.cs"
+"Assets/Chapter9/Scripts/GameManagers.cs"
+"Assets/Chapter9/Scripts/PlayerController.cs"
+"Assets/Chapter9/Scripts/Rotator.cs"
 -langversion:9.0
 
 /deterministic

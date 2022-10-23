@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Chapter8/Scene/Basket.unity
+- path: Assets/Chapter10/Scenes/FPS.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
