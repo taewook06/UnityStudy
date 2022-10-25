@@ -13,7 +13,7 @@ public class FollowEnemy : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player").transform;
-        nav = GetComponent<NavMeshAgent>();
+        nav = GetComponent<NavMeshAgent>();       
     }
 
     // Update is called once per frame
@@ -24,6 +24,6 @@ public class FollowEnemy : MonoBehaviour
     }
     public void navStop()
     {
-        nav.enabled = false;
+        Destroy(this.GetComponent<NavMeshAgent>());
     }
 }

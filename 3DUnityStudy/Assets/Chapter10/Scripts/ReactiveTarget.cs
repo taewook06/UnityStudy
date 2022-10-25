@@ -19,7 +19,7 @@ public class ReactiveTarget : MonoBehaviour
     {
         if(TryGetComponent<FollowEnemy>(out FollowEnemy fe))
         {
-            fe.navStop();
+           // fe.navStop();
         }
         transform.Rotate(-75, 0, 0);
 
